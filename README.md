@@ -18,7 +18,7 @@ A secure, resumable file transfer web application with authentication and real-t
 
 ## Technologies Used
 
-- **Frontend**:
+- **Frontend** Frontend in frontnd folder in tar:
   - React with TypeScript
   - Tailwind CSS for styling
   - Framer Motion for animations
