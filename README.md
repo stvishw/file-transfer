@@ -25,7 +25,7 @@ A secure, resumable file transfer web application with authentication and real-t
   - React Icons (Feather icons)
   - Axios for HTTP requests
 
-- **Backend** (not included in this repo):
+- **Backend**:
   - Expected to support resumable uploads via chunked transfer encoding
   - JWT authentication
   - File status tracking
