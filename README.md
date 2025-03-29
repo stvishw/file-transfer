@@ -35,7 +35,7 @@ A secure, resumable file transfer web application with authentication and real-t
 1. Clone the repository:
    ```bash
    git clone https://github.com/stvishw/file-transfer.git
-   cd file-transfer-app
+   cd file-transfer
 
 ## How to Start
 Backend
