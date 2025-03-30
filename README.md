@@ -19,14 +19,14 @@ A secure, resumable file transfer web application with authentication and real-t
 
 ## Technologies Used
 
-- **Frontend** Frontend in frontnd folder in tar:
+- **Frontend** Frontend in frontend branch:
   - React with TypeScript
   - Tailwind CSS for styling
   - Framer Motion for animations
   - React Icons (Feather icons)
   - Axios for HTTP requests
 
-- **Backend**:
+- **Backend** main branch:
   - Expected to support resumable uploads via chunked transfer encoding
   - JWT authentication
   - File status tracking
@@ -41,15 +41,15 @@ A secure, resumable file transfer web application with authentication and real-t
 
 ## How to Start
 For Backend
-cd file-transfer
-run command: go mod tidy
-run command: go run cmd/main.go
+ - cd file-transfer
+ - run command: go mod tidy
+ - run command: go run cmd/main.go
 
 
 For Frontend
-cd file-frontend
-npm run dev
-Hit url on browser: localhost:3000
+ - cd file-frontend
+ - npm run dev
+ - Hit url on browser: localhost:3000
 
 **Credentials**:  username: admin password: admin
 
