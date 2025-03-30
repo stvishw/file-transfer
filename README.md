@@ -1,5 +1,8 @@
 # File Transfer Application
 
+## Screenshots
+![Logs Screenshot](screenshot/Screenshot_1.png)  
+
 A secure, resumable file transfer web application with authentication and real-time progress tracking.
 
 ## Features
@@ -27,10 +30,6 @@ A secure, resumable file transfer web application with authentication and real-t
   - Expected to support resumable uploads via chunked transfer encoding
   - JWT authentication
   - File status tracking
-
-## Screenshots
-![Logs Screenshot](screenshot/Screenshot_1.png)  
-
 
 ## Installation
 
