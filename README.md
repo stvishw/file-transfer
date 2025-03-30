@@ -30,6 +30,10 @@ A secure, resumable file transfer web application with authentication and real-t
   - JWT authentication
   - File status tracking
 
+## Screenshots
+![Logs Screenshot](screenshots/Screenshot_1.png)  
+
+
 ## Installation
 
 1. Clone the repository:
