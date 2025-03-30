@@ -1,9 +1,9 @@
 # File Transfer Application
-
+A secure, resumable file transfer web application with authentication and real-time progress tracking.
 ## Screenshots
 ![Logs Screenshot](screenshot/Screenshot_1.png)  
 ![Login Screenshot](screenshot/Screenshot_5.png)  
-A secure, resumable file transfer web application with authentication and real-time progress tracking.
+
 
 ## Features
 
