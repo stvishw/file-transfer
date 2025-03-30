@@ -31,7 +31,7 @@ A secure, resumable file transfer web application with authentication and real-t
   - File status tracking
 
 ## Screenshots
-![Logs Screenshot](screenshots/Screenshot_1.png)  
+![Logs Screenshot](screenshot/Screenshot_1.png)  
 
 
 ## Installation
