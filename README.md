@@ -2,8 +2,6 @@
 
 A secure, resumable file transfer web application with authentication and real-time progress tracking.
 
-![File Transfer](screenshot.png)
-
 ## Features
 
 - **Secure Authentication**: User login with JWT token-based authentication
