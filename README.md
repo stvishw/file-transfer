@@ -2,7 +2,7 @@
 
 ## Screenshots
 ![Logs Screenshot](screenshot/Screenshot_1.png)  
-
+![Login Screenshot](screenshot/Screenshot_5.png)  
 A secure, resumable file transfer web application with authentication and real-time progress tracking.
 
 ## Features
@@ -56,7 +56,24 @@ For Frontend
 ## API Endpoints
 API Endpoints
 
+
 Authentication
+ - POST /login → User login, returns JWT token.
+ - Request: { "username": "user", "password": "pass" }
+ - Response: { "token": "jwt_token" }
+ - Use token in: Authorization: Bearer <jwt_token>
+
+File Upload (Protected)
+ - POST /init_upload → Start file upload, get upload_id.
+ - POST /upload_chunk → Upload a chunk of a file.
+
+ File Download
+ - GET /download/:file_id → Download a file by ID.
+
+ File Status
+  - GET /status/:file_id → Check file upload status.
+
+
 Method	Endpoint	Description	Request	Response
 POST	/login	Authenticate user	{ username: string, password: string }	{ access_token: string }
 File Operations (Require Authentication)
